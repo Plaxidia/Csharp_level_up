@@ -54,12 +54,23 @@ namespace Csharp
                 index++;
             }
             while (index < 10);
-             */
+           
             // for loop
             for (var index =0; index <10; index++)
             {
                 Console.WriteLine(index);
             }
+              */
+            //strings 
+            var index = 0;
+            var Name = " Hove";
+            while (index < 10)
+            {
+                Console.WriteLine(" they call me " + Name + "number "+ index);
+                index++;
+            }
+
+
         }
     }
 }
