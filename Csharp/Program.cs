@@ -37,7 +37,7 @@ namespace Csharp
             {
                 Console.WriteLine(" all i do is to greet ");
             }
-           */
+           
             //while loop
             var index = 0;
             while (index <10)
@@ -45,7 +45,16 @@ namespace Csharp
                 Console.WriteLine(index);
                 index++;
             }
-
+            */
+            //do while loop,it fires or checks the block and then execute the condition
+            var index = 0;
+            do
+            {
+                Console.WriteLine(index);
+                index++;
+            }
+            while (index < 10);
+            
         }
     }
 }
