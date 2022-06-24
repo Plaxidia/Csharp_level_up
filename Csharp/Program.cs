@@ -7,7 +7,24 @@ namespace Csharp
         {
             var input = Console.ReadLine();
 
-            if (input ==" Hello")
+            switch(input)
+            {
+                case "Hello":
+                    Console.WriteLine(" Hello, How are you");
+                    break;
+
+                case "Hey,quick question":
+                    Console.WriteLine("What's your name");
+                    break;
+                case "I am well,Thank you":
+                    Console.WriteLine("Fine thanks and you?");
+                    break;
+                default:
+                    Console.WriteLine("Goodbye");
+                    break;
+
+            }
+           /* if (input ==" Hello")
             {
                 Console.WriteLine(" Hello, How are you");
             }
@@ -19,6 +36,9 @@ namespace Csharp
             {
                 Console.WriteLine(" all i do is to greet ");
             }
+           */
+
+
         }
     }
 }
