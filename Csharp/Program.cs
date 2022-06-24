@@ -45,7 +45,7 @@ namespace Csharp
                 Console.WriteLine(index);
                 index++;
             }
-            */
+           
             //do while loop,it fires or checks the block and then execute the condition
             var index = 0;
             do
@@ -54,7 +54,12 @@ namespace Csharp
                 index++;
             }
             while (index < 10);
-            
+             */
+            // for loop
+            for (var index =0; index <10; index++)
+            {
+                Console.WriteLine(index);
+            }
         }
     }
 }
