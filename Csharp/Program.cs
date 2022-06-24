@@ -5,6 +5,7 @@ namespace Csharp
     {
         static void Main(string [] args)
         {
+            /*
             var input = Console.ReadLine();
 
             switch(input)
@@ -24,7 +25,7 @@ namespace Csharp
                     break;
 
             }
-           /* if (input ==" Hello")
+            if (input ==" Hello")
             {
                 Console.WriteLine(" Hello, How are you");
             }
@@ -37,7 +38,13 @@ namespace Csharp
                 Console.WriteLine(" all i do is to greet ");
             }
            */
-
+            //while loop
+            var index = 0;
+            while (index <10)
+            {
+                Console.WriteLine(index);
+                index++;
+            }
 
         }
     }
