@@ -11,18 +11,17 @@ namespace Csharp
         
        static void Main(string[] args)
         {
-            int numberfromfunction;
-            numberfromfunction = myFunction();
-            Console.WriteLine(" number returned by the function" + numberfromfunction);
+            int index =50;
+            int newindex = myFunction(index);
+            Console.WriteLine("number returned by the function"  +  newindex);
 
-                myFunction();
+                
                 //function is a block of statement to be executed
         }
     
        //static void myFunction()
-       static int myFunction()
+       static int myFunction(int myindex)
         {
-            var myindex = 0;
             Console.WriteLine(myindex +=5);
             return myindex;
         }
