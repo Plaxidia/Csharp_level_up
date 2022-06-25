@@ -6,11 +6,26 @@ using System.Threading.Tasks;
 
 namespace Csharp
 {
-    class Program
-    {
+   class Program
+    { 
+        
        static void Main(string[] args)
         {
-           // funtion is args block of code that execute a statement
+            int numberfromfunction;
+            numberfromfunction = myFunction();
+            Console.WriteLine(" number returned by the function" + numberfromfunction);
+
+                myFunction();
+                //function is a block of statement to be executed
         }
-     } 
+    
+       //static void myFunction()
+       static int myFunction()
+        {
+            var myindex = 0;
+            Console.WriteLine(myindex +=5);
+            return myindex;
+        }
+    
+    }
 }
