@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Csharp
-{ //access modifiers allows to set specific restrictions on specific types
+{ /*
+    //access modifiers allows to set specific restrictions on specific types
     public class Program
     {
         static void Main(string[] args)
@@ -30,4 +31,5 @@ namespace Csharp
           
         }
     }
+    */
 }
