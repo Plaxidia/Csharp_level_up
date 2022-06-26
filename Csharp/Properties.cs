@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Csharp
-{
+{/*
     public class Program
     {
         static void Main(string[] args)
@@ -29,6 +29,39 @@ namespace Csharp
             
         }
 
+    }*/
+
+
+
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            Car car = new Car();
+            car.Typee = "Sports Car";
+
+            Console.WriteLine(car.Typee);
+
+        }
+
     }
-    
+    class Car
+    {
+  
+        private string type;
+        public string Typee
+        {
+            get 
+            {
+                return type;
+            }
+            set
+            {
+                type = value.ToLower();
+            }
+
+        }
+        //public string Type {get ;set ;} // this automatically makeprivate variable 
+
+    }
 }
