@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 
 namespace Csharp
-{
+{/*
     public class Program
     {
         static void Main(string[] args)
@@ -31,4 +31,5 @@ namespace Csharp
             }
         }
     }
+    */
 }
