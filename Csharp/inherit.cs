@@ -5,8 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Csharp
-{
-
+{/*
     class Program
     {
         static void Main(string[] args)
@@ -15,8 +14,8 @@ namespace Csharp
             Van van = new Van();
             Car car = new Car();
 
-            car.model = " BMW";
-            //Console.WriteLine(Car);
+            van.model = " BMW";
+            Console.WriteLine(van.model);
 
 
         }
@@ -36,8 +35,9 @@ namespace Csharp
         public bool adjustableseats;
            
     }
-    public class Car:Vehicle
+    public class Car
     {
         public bool Stearing;
     }
+    */
 }
