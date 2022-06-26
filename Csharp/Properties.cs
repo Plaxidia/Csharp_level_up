@@ -29,7 +29,7 @@ namespace Csharp
             
         }
 
-    }*/
+    }
 
 
 
@@ -48,7 +48,7 @@ namespace Csharp
     class Car
     {
   
-        private string type;
+        private string type;//its a property
         public string Typee
         {
             get 
@@ -64,4 +64,5 @@ namespace Csharp
         //public string Type {get ;set ;} // this automatically makeprivate variable 
 
     }
+    */
 }
