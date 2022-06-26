@@ -5,10 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Csharp
-{
+{/*
    class Program
     { 
-        /*
+        
        static void Main(string[] args)
         {
             int index =50;
@@ -27,4 +27,5 @@ namespace Csharp
         }
     
     }
-}*/
+*/
+}
