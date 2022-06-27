@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Csharp
-{
+{/*
     public class Program
     {
         static void Main(string[] args)
@@ -41,4 +41,5 @@ namespace Csharp
     {
         public string Make { get; set; } 
     }
+    */
 }
