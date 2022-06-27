@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Csharp
 {
+    /*
    class Program:Animal
     {
         static void Main(string[] args)
@@ -31,4 +32,5 @@ namespace Csharp
 
         }    
     }
+    */
 }
