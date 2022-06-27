@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Csharp
 {
+    /*
     class Program :Animal
     {
         static void Main(string[] args)
@@ -25,4 +26,5 @@ namespace Csharp
         //it is a good way of organising the code
         string getName( );
     }
+    */
 }
