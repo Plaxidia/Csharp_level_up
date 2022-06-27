@@ -7,11 +7,8 @@ using System.Threading.Tasks;
 
 namespace Csharp
 {   //struct are value types
-    public class Program
-    {
-        static void Main(string[] args)
-        {
-            Car car = new Car();
+    /*
+    c Car car = new Car();
             car.Make = "My first car";
             Console.ReadLine();
             Console.WriteLine(car.Make);
@@ -23,5 +20,5 @@ namespace Csharp
     {
         public string Make { get; set; }
         public string Model { get; set; }   
-    }
+    */
 }
