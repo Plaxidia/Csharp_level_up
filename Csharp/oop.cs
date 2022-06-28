@@ -1,11 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
-namespace Csharp
-{   //1.User can purchase from n iteam the online store
+//namespace Csharp
+//{
+    /*
+    //1.User can purchase from n iteam the online store
     //2.Each item  must be displayed for the user to choose 
     //3.Each item will contain a  title and price 
     //4.Each item must also contain unique properties
@@ -30,8 +32,8 @@ namespace Csharp
         static void PurchaseItem()
         {
             var item = Console.ReadLine();
-          
-                switch (item)
+
+            switch (item)
             {
 
                 case "Book":
@@ -68,6 +70,7 @@ namespace Csharp
                     }
             }
 
+
             bool isRunning = true;
             while (isRunning)
             {
@@ -81,28 +84,37 @@ namespace Csharp
             }
 
         }
-
-        class Store
+    }
+       */
+    /*
+    class Store
         {
             public string Title { get; set; }
             public double Price { get; set; }
 
 
         }
+    */
+    /*
         class Book : Store
         {
             public string Author { get; set; }
 
         }
+    */
+    /*
         class Shirt : Store
         {
             public string size { get; set; }
 
         }
+    */
+    /*
         class Shoes : Store
         {
             public string color { get; set; }
         }
-    }
+         */
     
-}
+   
+//}
